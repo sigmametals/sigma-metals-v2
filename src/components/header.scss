@@ -1,0 +1,20 @@
+.header {
+
+  &__container {
+    margin: 1rem;
+  }
+
+  &__text {
+    color: #0a0a0a;
+    font-family: 'Roboto', sans-serif;
+    a {
+      color: #0a0a0a;
+      text-decoration: none;
+      &:hover {
+        color: #0a0a0a;
+      }
+    }
+
+  }
+
+}

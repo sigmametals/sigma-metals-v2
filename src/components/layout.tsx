@@ -5,14 +5,19 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import * as React from 'react';
 
-import Header from "./header"
-import "./layout.css"
+import { graphql } from 'gatsby';
+import { useStaticQuery } from 'gatsby';
 
-const Layout = ({ children }) => {
+import Header from './header';
+import './layout.css';
+
+interface LayoutProps {
+  children: any;
+}
+
+const Layout: React.SFC<LayoutProps> = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -21,7 +26,7 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <>
@@ -42,11 +47,7 @@ const Layout = ({ children }) => {
         </footer>
       </div>
     </>
-  )
-}
+  );
+};
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
-
-export default Layout
+export default Layout;
