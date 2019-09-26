@@ -2,6 +2,7 @@
 path: "/blog/my-first-post"
 date: "2019-05-04"
 title: "This is the worst part. The calm before the battle."
+heroImg: "https://images.unsplash.com/photo-1535776142635-8fa180c46af7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
 category: "politics"
 ---
 Yes, I saw. You were doing well, until everyone died. For the last time, I don't like lilacs! Your 'first' wife was the one who liked lilacs! Kids don't turn rotten just from watching TV. Ummm…to eBay?

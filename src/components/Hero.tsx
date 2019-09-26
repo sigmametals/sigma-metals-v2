@@ -4,7 +4,7 @@ import './Hero.scss';
 
 interface HeroProps {
   bgImgUrl: string;
-  children: any;
+  children?: any;
 };
 
 // export const Hero: React.SFC<HeroProps> = ({ bgImgUrl, children }) => {
@@ -38,7 +38,7 @@ export class Hero extends React.Component<HeroProps,{}> {
 
   render() {
     const { children } = this.props;
-    return (
+    return this.props.bgImgUrl && (
       <div
         className="hero hero__text--white"
         style={this.getStyles()}

@@ -47,9 +47,9 @@ export const query = graphql`
     allMarkdownRemark {
       nodes {
         frontmatter {
-          title
-          path
-          date
+          title,
+          path,
+          date(formatString: "MMMM DD, YYYY")
         }
       }
     }

@@ -5,6 +5,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 import './Article.scss';
+import { Hero } from '../components/Hero';
 
 interface BlogProps {
     data: any;
@@ -19,6 +20,7 @@ const Blog: React.SFC<BlogProps> = ({
     <Layout>
       <SEO title={frontmatter.title} />
       <div className="article article__container">
+        <Hero bgImgUrl={frontmatter.heroImg} />
         <div className="blog-post">
           <h1>{frontmatter.title}</h1>
           <h2>{frontmatter.date}</h2>
@@ -40,6 +42,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        heroImg
       }
     }
   }
