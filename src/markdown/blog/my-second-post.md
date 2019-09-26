@@ -2,8 +2,8 @@
 path: "/blog/my-second-post"
 date: "2019-05-04"
 title: "Yeah. Give a little credit to our public schools."
+category: "economics"
 ---
-
 
 Is today's hectic lifestyle making you tense and impatient? I never loved you. I guess because my parents keep telling me to be more ladylike. As though! Oh dear! She's stuck in an infinite loop, and he's an idiot! Well, that's love for you.
 

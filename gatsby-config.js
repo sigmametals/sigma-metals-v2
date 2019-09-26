@@ -16,6 +16,15 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: {
+          posts: require.resolve("./src/components/Layout.tsx"),
+          default: require.resolve("./src/components/Layout.tsx"),
+        },
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         tableOfContents: {

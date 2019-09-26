@@ -1,0 +1,9 @@
+$block-name: 'homepage';
+
+.#{$block-name} {
+
+  &__section {
+    margin: 5.5rem 0 0 0;
+  }
+
+}

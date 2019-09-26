@@ -13,9 +13,9 @@ export const ArticleLink: React.SFC<ArticleLink> = ({ path, title, date }) => {
   return (
     <Link to={path}>
       <div className="article-link">
-        <h2>
+        <h3>
           {title}
-        </h2>
+        </h3>
         <span>{date}</span>
       </div>
     </Link>

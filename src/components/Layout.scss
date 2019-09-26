@@ -6,13 +6,13 @@ $block-name: 'layout';
 .#{$block-name} {
 
   display: flex;
-  padding: 0.5rem;
+  padding: 10px;
 
   @include tablet-up {
-    padding: 50px 100px;
+    padding: 25px 100px;
   }
-  @include desktop-up {
-    padding: 50px 250px;
+  @include laptop-up {
+    padding: 25px 250px;
   }
 
   &__navigation {

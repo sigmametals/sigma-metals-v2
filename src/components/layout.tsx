@@ -33,7 +33,6 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <Navigation />
       <div className="layout">
-
         <div className="layout__column layout__main">
           <main>{children}</main>
         </div>

@@ -16,7 +16,10 @@ export const ImageButton: React.SFC<ImageButtonProps> = ({ imgUrl, text, path })
     <Link to={path}>
       <div
         className="image-button"
-        style={{ backgroundImage: `url(${imgUrl})` }}
+        style={{
+          backgroundImage: `url(${imgUrl})`,
+          backgroundSize: 'cover',
+        }}
       >
         <span className="image-button__text">{ text }</span>
       </div>

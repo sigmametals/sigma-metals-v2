@@ -1,13 +1,19 @@
+@import '../styles/mixins/media-queries';
+
 $block-name: 'image-button';
 
 .#{$block-name} {
 
 
-  background-color: #0f0f0f;
+  background: #0f0f0f;
   border: none;
   border-radius: 3px;
   height: 100px;
   width: 100%;
+
+  @include tablet-up {
+    height: 120px;
+  }
 
   &__text {
     position: relative;

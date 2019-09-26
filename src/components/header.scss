@@ -5,15 +5,18 @@ $block-name: 'header';
 .#{$block-name} {
 
   &__container {
-    padding: 1.75rem 1rem 1rem 1rem;
+    padding: 1.75rem 1rem 0 1rem;
     @include tablet-up {
-      padding: 3rem 1rem 1rem 1rem;
+      padding: 3rem 1rem 0 1rem;
     }
   }
 
   &__text {
     text-align: center;
-    font-size: 3rem;
+    a {
+      font-size: 3rem;
+      font-weight: 200;
+    }
   }
 
   &__link {

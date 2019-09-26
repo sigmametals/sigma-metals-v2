@@ -1,0 +1,48 @@
+@import '../styles/mixins/media-queries';
+@import '../styles/variables/colours';
+
+$block-name: 'hero';
+
+.#{$block-name} {
+
+  min-height: 400px;
+  padding: 5rem 2rem;
+  margin: 0 -26px;
+
+  @include tablet-up {
+    border: $default-border;
+    border-radius: $border-radius;
+    margin: 0 -6rem 3rem;
+    min-height: 600px;
+    padding: 6rem 6rem;
+  }
+
+  &__text {
+    &--white {
+      h1,h2,h3,h4,h5,h6,p,span {
+        color: white;        
+      }
+      color: white;
+    }
+
+    &--black {
+
+    }
+  }
+
+  ul {
+    margin: 0;
+    list-style: none;
+    li {
+      margin: 0 0.5rem 0 0rem;
+      padding: 0.3rem 0.5rem;
+      border: $default-border;
+      border-radius: $border-radius;
+      color: white;
+      font-weight: 700;
+      background: rgba(0,0,0,0.5);
+      display: inline-block;
+    }
+  }
+
+}
