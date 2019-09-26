@@ -1,0 +1,30 @@
+@import '../styles/mixins/media-queries';
+
+$block-name: 'layout';
+
+
+.#{$block-name} {
+
+  display: flex;
+  padding: 0.5rem;
+
+  @include tablet-up {
+    padding: 50px 100px;
+  }
+  @include desktop-up {
+    padding: 50px 250px;
+  }
+
+  &__navigation {
+    position: absolute;
+  }
+
+  &__main {
+    flex: 5;
+  }
+
+  &__column {
+    padding: 1rem;
+  }
+
+}

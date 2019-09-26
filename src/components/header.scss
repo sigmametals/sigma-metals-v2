@@ -1,19 +1,22 @@
-.header {
+@import '../styles/mixins/media-queries';
+
+$block-name: 'header';
+
+.#{$block-name} {
 
   &__container {
-    margin: 1rem;
+    padding: 1.75rem 1rem 1rem 1rem;
+    @include tablet-up {
+      padding: 3rem 1rem 1rem 1rem;
+    }
   }
 
   &__text {
-    color: #0a0a0a;
-    font-family: 'Roboto', sans-serif;
-    a {
-      color: #0a0a0a;
-      text-decoration: none;
-      &:hover {
-        color: #0a0a0a;
-      }
-    }
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  &__link {
 
   }
 

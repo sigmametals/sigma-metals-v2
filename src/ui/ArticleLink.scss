@@ -1,0 +1,19 @@
+$block-name: 'article-link';
+
+.#{$block-name} {
+  padding: 2rem;
+  border: 1px solid #c5c5c5;
+  margin: 1rem 0;
+  width: 100%;
+  border-radius: 0.25rem;
+
+  &:hover {
+    background: darken(white, 1.5%);
+    transition: background 250ms;
+
+  }
+  &__title {
+    
+  }
+
+}

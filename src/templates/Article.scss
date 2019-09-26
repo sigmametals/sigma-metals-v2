@@ -1,0 +1,9 @@
+$block-name: 'article';
+
+.#{$block-name} {
+
+  &__container {
+    margin-bottom: 4rem;
+  }
+
+}
