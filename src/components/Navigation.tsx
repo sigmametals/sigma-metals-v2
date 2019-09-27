@@ -1,12 +1,10 @@
 import React, { useState, MouseEvent } from 'react';
-import { Link } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 
 import './Navigation.scss';
 import { ImageButton } from '../ui/ImageButton';
 
-interface NavigationProps {
-
-};
+interface NavigationProps {};
 
 
 const Navigation: React.SFC<NavigationProps> = () => {
@@ -32,18 +30,6 @@ const Navigation: React.SFC<NavigationProps> = () => {
           <div className="navigation__bar"/>
         </div>
       </button>
-      {/* {
-        !isNavOpen && (
-          <button className={`navigation__button navigation__button--is-open-${isNavOpen}`}>
-            <div className="navigation__hamburger">
-              <div className="navigation__bar"/>
-              <div className="navigation__bar"/>
-              <div className="navigation__bar"/>
-            </div>
-          </button>
-        )
-      } */}
-      
 
       {
         isNavOpen && (
@@ -61,7 +47,6 @@ const Navigation: React.SFC<NavigationProps> = () => {
               </ul>
               <ul>
                 <h3>Writings</h3>
-                
                 <li>
                   <ImageButton
                     imgUrl="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"
@@ -111,5 +96,6 @@ const Navigation: React.SFC<NavigationProps> = () => {
   )
 
 };
+
 
 export default Navigation;

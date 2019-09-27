@@ -9,8 +9,9 @@ interface ArticleList {
 };
 
 export const ArticleList: React.SFC<ArticleList> = ({ title, posts }) => {
-  console.log(posts);
+
   let capitalizedTitle = title[0].toUpperCase() + title.slice(1);
+
   return (
     <section>
       <h2>{ capitalizedTitle }</h2>
@@ -25,6 +26,6 @@ export const ArticleList: React.SFC<ArticleList> = ({ title, posts }) => {
         })
       }
     </section>
-  )
+  );
 
 };
