@@ -66,21 +66,21 @@ const Navigation: React.SFC<NavigationProps> = () => {
                   <ImageButton
                     imgUrl="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"
                     text="Political Junk"
-                    path="/blog/my-first-post"
+                    path="/category/politics"
                   />
                 </li>
                 <li>
                   <ImageButton
                     imgUrl="https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg"
                     text="Econ Trash"
-                    path="/blog/my-first-post"
+                    path="/category/economics"
                   />
                 </li>
                 <li>
                   <ImageButton
                     imgUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR6wElCXyjK2N9jexx2HXbPASoMtBwPrEplw9wlzkXNICoQqV6"
                     text="Software Bugs"
-                    path="/blog/my-first-post"
+                    path="/category/software"
                   />
                 </li>
                 <li>

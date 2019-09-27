@@ -2,6 +2,7 @@
 path: "/blog/my-third-post"
 date: "2019-05-04"
 title: "With a warning label this big, you know they gotta be fun!"
+heroImg: "https://live.staticflickr.com/8322/7980981902_d968938b02_b.jpg"
 category: "software"
 ---
 

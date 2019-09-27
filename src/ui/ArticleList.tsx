@@ -10,9 +10,10 @@ interface ArticleList {
 
 export const ArticleList: React.SFC<ArticleList> = ({ title, posts }) => {
   console.log(posts);
+  let capitalizedTitle = title[0].toUpperCase() + title.slice(1);
   return (
     <section>
-      <h2>{ title }</h2>
+      <h2>{ capitalizedTitle }</h2>
       {
         posts.map(post => {
           const { frontmatter: article } = post;

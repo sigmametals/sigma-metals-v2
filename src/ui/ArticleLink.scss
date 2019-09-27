@@ -1,11 +1,13 @@
+@import '../styles/variables/borders';
+
 $block-name: 'article-link';
 
 .#{$block-name} {
   padding: 2rem;
-  border: 1px solid #c5c5c5;
+  border: $default-border;
   margin: 1rem 0;
   width: 100%;
-  border-radius: 0.25rem;
+  border-radius: $border-radius;
 
   &:hover {
     background: darken(white, 1.5%);

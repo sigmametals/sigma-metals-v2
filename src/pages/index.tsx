@@ -22,8 +22,8 @@ const IndexPage = ({ data }) => {
         <h2>Hello visitor,</h2>
         <p>Lorem ipsum dolor sit amet, consectetur: </p>
         <ul>
-          <li>adipisicing elit</li>
-          <li>soluta</li>
+          <li>web developer</li>
+          <li>politico</li>
           <li>excepturi ipsam</li>
           <li>harum enim</li>
         </ul>
@@ -37,7 +37,7 @@ const IndexPage = ({ data }) => {
           
         )
       }
-      <Link to="/page-2/">Go to page 2</Link>
+      {/* <Link to="/page-2/">Go to page 2</Link> */}
     </Layout>
   )
 };
