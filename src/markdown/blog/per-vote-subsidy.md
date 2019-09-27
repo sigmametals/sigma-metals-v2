@@ -1,0 +1,40 @@
+---
+path: "/blog/consequences-of-cutting-the-per-vote-subsidy"
+date: "2011-06-22"
+title: "Consequences of Cutting the Per-Vote Subsidy"
+category: "politics"
+---
+
+After the 2008 Canadian Election, wherein the Conservatives came back as a minority government, Harper purposefully tabled in his budget the removal of the per-vote subsidy for political parties. It was seen as a blatant attack on the rather weak fundraising structure of the Liberal Party, knee deep in debt, and the hope was that the budget would be supported or another election be called. This would have conferred upon Harper his coveted majority as the public would have disdained Stephane Dion, Jack Layton, and Gilles Duceppe for bringing voters to the polls yet again. As we know, this didn’t happen, and a tentative “coalition of losers” of sorts was established, which the Tories didn’t see coming. Parliament was prorogued, and Harper promised that his party wouldn’t go about with removing the subsidy unless if they had a majority. The rest was history.
+
+Fast forward to today. The Tories have now got their majority and the removal of the per-vote subsidy is in their budget. Will it leave the Bloc near death? Will it leave the Liberals without their crutches and the NDP without their income supplement?
+
+The answer is yes to the questions above, however, this is perhaps the medicine we as Canada need for healthier political parties and maybe even a more politically active Canada. If anything, the removal of the per-vote subsidy will hardly go just as planned for the Tories as of now, and the primary beneficiaries of this will likely be the parties that will feel the most hurt in their wallets.
+
+I’ll be bold in my convictions and predictions, and put it bluntly as follows:
+
+Each party will likely see a growth in their base of support and voter turnout will be greater than it was in the last election. As a result, in the next election, we will see greater political involvement amongst Canadians with the Liberals, the NDP, the Bloc, and the Greens. Alas, the Conservatives will lose support, as karmic retribution for scrapping the per-vote subsidy.
+
+I couldn’t be more serious.
+
+The removal of the per-vote subsidy definitely was a threat under a minority Conservative government. An election could have been called anytime, and the removal of the subsidy in 2008 would have left parties with their coffers drained as they would have to perpetually campaign while fundraising at the same time. It would have been a nightmare for the opposition to go into the 2011 election without the per-vote cash on hand, and as outlined by the Globe and Mail, it would have handed the Conservatives a supermajority akin to the Mulroney Days.
+
+The opposition parties are lucky. Under a majority government with a 4 year mandate, the dynamics have changed. No longer does any party have to be in a permanent campaign mode, and the phasing out of the per-vote subsidy will now allow the opposition parties to renew their fundraising mechanisms and be on par with the Tory money-making machine.
+
+So how will they go about doing this?
+
+Well, in the private sector, when you already have an existing brand and want to garner more money from it, you either maximize revenues from your current set of customers, or expand your base of customers. To do this, you must at least market your brand at a greater frequency.
+
+The dynamics of fundraising are similar. You need to have a brand (the party), market the brand to gain and retain supporters, and then garner donations from these supporters. At this point, marketing and fundraising are intertwined, and the latter cannot be done without the former.
+
+Consider that you have your current base that is filled with loyal supporters that will give you a donation. You can maximize the amount of money received from this current crop if you wish to, however you will eventually reach the legal donation limit and the arbitrary limit each individual imposes upon their donation. As seen from the exit polls, the current crop simply isn’t enough for opposition parties to garner a level of donations that would be on par with the Conservatives, or their respective regional competition.
+
+Due to this, the opposition will have to expand beyond their current base and market themselves to gain more supporters. This can be done in two ways: eat into another party’s support base, or look towards the 39% of eligible Canadians who did not vote last election. To hold success in the coming election, both will have to be done through a variety of ways; by marketing the brand and perhaps modifying the political brand. In terms of modifying the brand, the NDP may increase their base by removing the word “socialism” from their constitution, making them more inclusive and reforming in the way New Labour had done in the UK and this can whittle away at the Liberal base. Speaking of the devil, the Liberals may adopt an idea gaining traction in party circles such as the primary contest system, as it is done with the GOP and the Democrats in the United States to select presidential candidates, which would likely secure the support of some of the 39% that didn’t vote due to its novelty. Whether or not the political brands will be changed or not, which is likely the case, we will see an increase in marketing for the purposes of garnering more funds. I’m willing to believe that these efforts will be successful, as the opposition parties will have to adopt many methods employed by the Conservatives, such as micro-targeting efforts, pre-election advertising, and robo-calls, to gain fundraising parity and to be a more competitive party in the oncoming election.
+
+So with further marketing efforts, we will see an increase in the base of support of the opposition parties, which will largely be the result of getting voters who stayed home last election to pledge their support towards one of these parties. So not only would the support for the opposition increase, but this should result in an increase in donations as well as an increase in voter turnout in the coming election.
+
+This leaves me to my final prediction: how will the Conservatives lose support?
+
+This would be due to the culmination of the aforementioned forces unleashed largely by the fundraising efforts of the two opposition parties best fit to govern: the Liberals and the NDP. The core marketing strategy of either party would be to argue that they are the better alternatives to the Tories that currently govern, as a means of differentiation. They will need to decrease the support the Tories have while increasing their own and voters, who are known to be fickle, will likely succumb to these efforts. Furthermore, given the course of the next four years and the newfound vigor to fundraise due to being in financial dire straits, the opposition parties’ marketing and fundraising efforts will have the added effect of serving as an attack on the Tories.
+
+To wrap things up, as a result of the removal of the per-vote subsidy, each opposition party will probably see a growth in their base of support, garnered from one another and those who did not vote the election before through their combined marketing and fundraising efforts. Due to this, we’ll likely see an increase in voter turnout and political involvement amongst the opposition. Due to efforts in differentiation, a cornerstone of proper marketing practice, the opposition will have to attack the Conservatives in order to explain why they are the only ones that will be able to “save Canada”. Over the course of the next four years, this will all lead to a loss in support for the Tories, simply because they chose to get rid of the per-vote subsidy which would have otherwise left their political opponents largely complacent.
