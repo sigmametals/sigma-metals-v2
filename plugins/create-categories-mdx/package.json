@@ -1,0 +1,15 @@
+{
+  "name": "create-categories-mdx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "defaults.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "slug": "^1.1.0"
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Footer.scss';
 
-interface FooterProps {};
+interface FooterProps {}
 
 const Footer: React.SFC<FooterProps> = () => {
 

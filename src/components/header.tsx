@@ -1,6 +1,6 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 import './header.scss';
 
@@ -20,6 +20,6 @@ const Header: React.SFC<HeaderProps> = ({ siteTitle }) => (
       </h1>
     </div>
   </header>
-)
+);
 
 export default Header;

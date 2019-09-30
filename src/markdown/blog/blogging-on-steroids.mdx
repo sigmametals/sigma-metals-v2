@@ -1,0 +1,50 @@
+---
+path: "/blog/blogging-on-steroids"
+date: "2011-06-22"
+title: "Blogging on Steroids with Gatsby & MDX"
+heroImg: "https://medias.pourlascience.fr/api/v1/images/view/5a82b1468fe56f4a5a327335/wide_1300/image.jpg"
+category: "software"
+---
+import RechartExample from '../../examples/RechartExample.tsx'
+
+I'm writing this blurb right now in a `.mdx` file, which is a neat way to write markdown if you want to be able to embed `.jsx` files in them. 
+
+Here's a little showcase of the different features: 
+
+## KaTeX
+
+Here, you write your KaTeX science junk here: 
+
+```
+
+$$
+
+f_\text{X}(\boldsymbol{q}) = \int n_\text{e}(\boldsymbol{r}) \mathrm{e}^{ - \mathrm{i} \boldsymbol{q} \cdot \boldsymbol{r}} \mathrm{d}^3 r
+
+$$
+```
+
+and you get: 
+
+$$
+
+f_\text{X}(\boldsymbol{q}) = \int n_\text{e}(\boldsymbol{r}) \mathrm{e}^{ - \mathrm{i} \boldsymbol{q} \cdot \boldsymbol{r}} \mathrm{d}^3 r
+
+$$
+
+
+## Embedding an interactive chart 
+
+Embedding a chart seems to be just as easy. I'm using [recharts](http://recharts.org/) for this example.
+
+<RechartExample 
+  csvData={
+`time,number
+1,23
+2,34
+3,35
+4,54
+5,67
+6,23`
+  } />
+

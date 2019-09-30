@@ -8,7 +8,7 @@ interface ImageButtonProps {
   imgUrl: string;
   text: string;
   path: string;
-};
+}
 
 export const ImageButton: React.SFC<ImageButtonProps> = ({ imgUrl, text, path }) => {
 
@@ -21,12 +21,10 @@ export const ImageButton: React.SFC<ImageButtonProps> = ({ imgUrl, text, path })
           backgroundSize: 'cover',
         }}
       >
-        <span className="image-button__text">{ text }</span>
+        <span className="image-button__text">{text}</span>
       </div>
     </Link>
-    
+
   );
 
 };
-
-

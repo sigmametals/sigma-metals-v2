@@ -1,22 +1,26 @@
 import React from 'react';
+
+import { graphql } from 'gatsby';
+
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { ArticleList } from '../ui/ArticleList';
-import { graphql } from 'gatsby';
-
-
 
 interface CategoryPageProps {
   location: any;
-  pageContext: any;
-  data: any;
+  pageContext?: any;
+  data?: any;
 }
 
-
 const CategoryPage: React.SFC<CategoryPageProps> = ({ location, pageContext, data }) => {
+  // console.log('***DATA')
+  // return (
+  //   <h1>Hello World</h1>
+  // );
+  console.log('**CATEGORY PAGE', data);
   const { category } = pageContext;
 
-  let { nodes: posts } = data.allMarkdownRemark;
+  const { nodes: posts } = data.allMdx;
   // posts = posts.map()
   console.log('DATA', posts);
   return (
@@ -26,27 +30,23 @@ const CategoryPage: React.SFC<CategoryPageProps> = ({ location, pageContext, dat
         <ArticleList title={category} posts={posts} />
       </div>
     </Layout>
-  )
-}
+  );
+};
 
 export const pageQuery = graphql`
   query CategoryPage($category: String) {
-    allMarkdownRemark(
-      limit: 1000
-      filter: { fields: { category: { eq: $category } } }
-    ) {
-      totalCount
+    allMdx(filter: {frontmatter: {category: {eq: $category}}}) {
       nodes {
         frontmatter {
-          title
-          path
-          date
           category
+          date
           heroImg
+          path
+          title
         }
       }
     }
   }
-`
+`;
 
 export default CategoryPage;

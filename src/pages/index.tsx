@@ -1,17 +1,17 @@
-import React from "react";
-import { Link, graphql } from "gatsby";
+import { graphql, Link } from 'gatsby';
+import React from 'react';
 
-import Layout from "../components/layout";
-import Image from "../components/image";
-import SEO from "../components/seo";
-import { ArticleList } from "../ui/ArticleList";
-import { Hero } from "../components/Hero";
+import { Hero } from '../components/Hero';
+import Image from '../components/image';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import { ArticleList } from '../ui/ArticleList';
 
 import './index.scss';
 
 const IndexPage = ({ data }) => {
   console.log(data);
-  const { nodes } = data.allMarkdownRemark;
+  const { nodes } = data.allMdx;
 
   return (
     <Layout>
@@ -34,17 +34,17 @@ const IndexPage = ({ data }) => {
           <div className="homepage__section">
             <ArticleList title="Blog" posts={nodes} />
           </div>
-          
+
         )
       }
       {/* <Link to="/page-2/">Go to page 2</Link> */}
     </Layout>
-  )
+  );
 };
 
 export const query = graphql`
   {
-    allMarkdownRemark {
+    allMdx {
       nodes {
         frontmatter {
           title,

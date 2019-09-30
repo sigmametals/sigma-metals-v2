@@ -22,6 +22,15 @@ module.exports = {
           posts: require.resolve("./src/components/Layout.tsx"),
           default: require.resolve("./src/components/Layout.tsx"),
         },
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+              strict: `ignore`
+            }
+          }
+        ]
       },
     },
     {
@@ -62,7 +71,7 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-categories",
+      resolve: "create-categories-mdx",
       options: {
         templatePath: `${__dirname}/src/templates/CategoryPage.tsx`,
       },

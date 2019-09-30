@@ -1,5 +1,5 @@
-import React from 'react';
 import { Link } from 'gatsby';
+import React from 'react';
 
 import './ArticleLink.scss';
 
@@ -19,6 +19,6 @@ export const ArticleLink: React.SFC<ArticleLink> = ({ path, title, date }) => {
         <span>{date}</span>
       </div>
     </Link>
-  )
+  );
 
 };

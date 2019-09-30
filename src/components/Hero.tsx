@@ -5,7 +5,7 @@ import './Hero.scss';
 interface HeroProps {
   bgImgUrl: string;
   children?: any;
-};
+}
 
 // export const Hero: React.SFC<HeroProps> = ({ bgImgUrl, children }) => {
 
@@ -23,30 +23,29 @@ interface HeroProps {
 
 // };
 
-export class Hero extends React.Component<HeroProps,{}> {
+export class Hero extends React.Component<HeroProps, {}> {
 
   constructor(props) {
     super(props);
   }
 
-  getStyles = () => (
+  public getStyles = () => (
     {
       background: `url(${this.props.bgImgUrl}) no-repeat center center`,
       backgroundSize: 'cover',
     }
-  );
+  )
 
-  render() {
+  public render() {
     const { children } = this.props;
     return this.props.bgImgUrl && (
       <div
         className="hero hero__text--white"
         style={this.getStyles()}
       >
-        { children }
+        {children}
       </div>
-    )
+    );
   }
-
 
 }

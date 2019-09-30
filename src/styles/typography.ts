@@ -1,5 +1,5 @@
-import Typography from "typography";
-import theme from "typography-theme-moraga";
+import Typography from 'typography';
+import theme from 'typography-theme-moraga';
 
 theme.overrideThemeStyles = (styles, options) => ({
   'h1,h2,h3,h4,h5,h6': {
@@ -13,7 +13,7 @@ theme.overrideThemeStyles = (styles, options) => ({
     // color: "#2a6496",
     textDecoration: 'none',
   },
-})
+});
 
 const typography = Typography(theme);
 

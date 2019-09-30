@@ -1,11 +1,11 @@
-import React, { useState, MouseEvent } from 'react';
-import { Link, graphql } from 'gatsby';
+import React, { MouseEvent, useState } from 'react';
 
-import './Navigation.scss';
+import { graphql, Link } from 'gatsby';
+
 import { ImageButton } from '../ui/ImageButton';
+import './Navigation.scss';
 
 interface NavigationProps {};
-
 
 const Navigation: React.SFC<NavigationProps> = () => {
 
@@ -36,7 +36,7 @@ const Navigation: React.SFC<NavigationProps> = () => {
           <div className="navigation__menu-overlay">
             <ul>
               <ul>
-                <h3></h3>
+                <h3/>
                 <li>
                   <ImageButton
                     imgUrl="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"
@@ -88,14 +88,13 @@ const Navigation: React.SFC<NavigationProps> = () => {
               </ul>
             </ul>
           </div>
-          
+
         )
       }
-      
+
     </nav>
-  )
+  );
 
 };
-
 
 export default Navigation;
